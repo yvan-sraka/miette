@@ -215,9 +215,9 @@ impl ThemeCharacters {
             rcross: '┤',
             underbar: '┬',
             underline: '─',
-            error: "×".into(),
-            warning: "⚠".into(),
-            advice: "☞".into(),
+            error: "".into(),
+            warning: "".into(),
+            advice: "".into(),
         }
     }
 
@@ -242,9 +242,9 @@ impl ThemeCharacters {
             rcross: '┤',
             underbar: '┬',
             underline: '─',
-            error: "💥".into(),
-            warning: "⚠️".into(),
-            advice: "💡".into(),
+            error: "".into(),
+            warning: "".into(),
+            advice: "".into(),
         }
     }
     /// ASCII-art-based graphical elements. Works well on older terminals.
@@ -268,9 +268,9 @@ impl ThemeCharacters {
             rcross: '|',
             underbar: '|',
             underline: '^',
-            error: "x".into(),
-            warning: "!".into(),
-            advice: ">".into(),
+            error: "".into(),
+            warning: "".into(),
+            advice: "".into(),
         }
     }
 }
